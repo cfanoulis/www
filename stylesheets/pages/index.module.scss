@@ -1,0 +1,41 @@
+.indexpage {
+	background-color: whitesmoke;
+	width: 100vw;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	position: absolute;
+	font-family: 'Overpass Mono', monospace;
+	overflow: hidden;
+}
+
+.intro {
+	float: left;
+	width: 40vw;
+	margin: 15vh 10vw 3vh 30vh;
+}
+
+.buttongroup > button {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.navigation {
+	float: left;
+	margin-top: 25vh;
+	width: 20vw;
+	margin: 15vh 0vw;
+	border: 1px solid #030303;
+	padding: 16px;
+}
+
+@media screen and (max-height: 750px), screen and (max-width: 1000px) {
+	.projectlist {
+		margin: 1vh 10vw 3vh 30vh;
+		width: 40%;
+		border: 1px solid red;
+	}
+	.intro {
+		margin-bottom: 1vh !important;
+	}
+}

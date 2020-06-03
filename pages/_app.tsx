@@ -1,24 +1,29 @@
 import React from 'react';
 import App from 'next/app';
 
-import '../stylesheets/pages/index.scss';
+import '../stylesheets/global.scss';
+import Head from 'next/head';
 
 export default class MyApp extends App {
-	static async getInitialProps({Component, ctx}) {
-		let pageProps = {};
-
-		if (Component.getInitialProps) {
-			pageProps = await Component.getInitialProps(ctx);
-		}
-
-		return {pageProps};
-	}
-
 	render() {
 		const {Component, pageProps} = this.props;
 
 		return (
-			<Component {...pageProps}/>
+			<>
+				<Head>
+					<meta charSet="utf-8"/>
+					<meta
+						name="viewport"
+						content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+					/>
+					<link rel="shortcut icon" href="/public/static/favicon.ico"/>
+					<meta name="theme-color" content="#fafafa"/>
+
+					<title>Charalampos Fanoulis</title>
+				</Head>
+				<Component {...pageProps}/>
+			</>
+
 		);
 	}
 }
