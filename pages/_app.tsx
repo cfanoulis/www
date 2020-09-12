@@ -30,8 +30,6 @@ export default class MyApp extends App {
 					<meta property="og:title" content="This is Charalampos Fanoulis"/>
 					<meta property="og:type" content="website"/>
 					<meta property="og:url" content="https://fanoulis.dev"/>
-					<meta property="og:determiner" content="Charalampos Fanoulis"/>
-					<meta property="og:site_name" content="Charalampos Fanoulis"/>
 					<meta property="og:locale" content="en_US"/>
 					<meta property="og:email" content="yo@fanoulis.dev"/>
 					<meta
