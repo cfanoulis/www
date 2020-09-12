@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "xo",
+    "xo-typescript",
+    "xo-react"
+  ],
+}
