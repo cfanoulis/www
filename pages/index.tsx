@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from '../stylesheets/pages/index.module.scss';
 const randomHello = () => {
 	const greetings = ['hi', 'hello', 'howdy', 'hi there', 'hello there'];
-	return greetings[Math.floor(Math.random() * 5)];
+	return greetings[Math.floor(Math.random() * greetings.length)];
 };
 
 const Index = () => (
