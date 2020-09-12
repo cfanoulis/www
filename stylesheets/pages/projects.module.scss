@@ -18,7 +18,7 @@
 	position: absolute;
 	font-family: 'Overpass Mono', monospace;
 	overflow: hidden;
-	padding: 1vw;
+	padding: 1rem;
 }
 
 .cardtitle {
@@ -27,5 +27,13 @@
 }
 
 .carddesc {
-	font-size: small
+	font-size: small;
+}
+
+.cardlink {
+	font-size: small;
+	height: 24px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	margin-top: 0px;
 }
