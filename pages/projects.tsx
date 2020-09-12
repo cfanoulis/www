@@ -1,39 +1,40 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 
 import styles from '../stylesheets/pages/projects.module.scss';
 
 const fetchProjects = () => {
-	return [{name: "Skyra", description: " Skyra is a robust All-in-One bot for Discord", link: [
-		{name: "Visit Skyra", link: "https://skyra.pw"},
-		{name: "Skyra on GitHub", link: "https://github.com/skyra-project/skyra"}
+	return [{name: 'Skyra', description: ' Skyra is a robust All-in-One bot for Discord', link: [
+		{name: 'Visit Skyra', link: 'https://skyra.pw'},
+		{name: 'Skyra on GitHub', link: 'https://github.com/skyra-project/skyra'}
 
-	]}]
-}
+	]}];
+};
 
 const generateCards = () => {
 	const projects = fetchProjects();
 	return projects.map(e => {
 		return (
-			<div className={styles.card} key={e.name}>
+			<div key={e.name} className={styles.card}>
 				<p className={styles.cardtitle}>{e.name}</p>
 				<p className={styles.carddesc}>{e.description}</p>
 				{e.link.map(linkElement => {
 					return (
-						<a key={linkElement.name} className={styles.carddesc} href={linkElement.link} target="_blank">{linkElement.name}</a>
+						<a key={linkElement.name} className={styles.carddesc} href={linkElement.link} target="_blank" rel="noreferrer">{linkElement.name}</a>
 					);
 				})}
 			</div>
-		)
-	})
+		);
+	});
 };
 
 const Projects = () => {
 	const [cardElements, setCards] = useState(null);
 	useEffect(() => {
-		async function makeCards() {
-			const cards = await generateCards();
+		function makeCards() {
+			const cards = generateCards();
 			setCards(cards);
 		}
+
 		makeCards();
 	}, []);
 
@@ -45,6 +46,6 @@ const Projects = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Projects;
