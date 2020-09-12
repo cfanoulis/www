@@ -1,27 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import styles from '../stylesheets/pages/projects.module.scss';
-const Projects = () => (
-	<div className="projectspage">
-		<h1> Projects I&apos;ve worked on</h1>
-		<div className={styles.cardscontainer}>
-			<div className={styles.card}>
-				<p>placeholder</p>
+
+const fetchProjects = () => {
+	return [{name: "Skyra", description: " Skyra is a robust All-in-One bot for Discord", link: [
+		{name: "Visit Skyra", link: "https://skyra.pw"},
+		{name: "Skyra on GitHub", link: "https://github.com/skyra-project/skyra"}
+
+	]}]
+}
+
+const generateCards = () => {
+	const projects = fetchProjects();
+	return projects.map(e => {
+		return (
+			<div className={styles.card} key={e.name}>
+				<p className={styles.cardtitle}>{e.name}</p>
+				<p className={styles.carddesc}>{e.description}</p>
+				{e.link.map(linkElement => {
+					return (
+						<a key={linkElement.name} className={styles.carddesc} href={linkElement.link} target="_blank">{linkElement.name}</a>
+					);
+				})}
 			</div>
-			<div className={styles.card}>
-				<p>placeholder</p>
-			</div>
-			<div className={styles.card}>
-				<p>placeholder</p>
-			</div>
-			<div className={styles.card}>
-				<p>placeholder</p>
-			</div>
-			<div className={styles.card}>
-				<p>placeholder5</p>
+		)
+	})
+};
+
+const Projects = () => {
+	const [cardElements, setCards] = useState(null);
+	useEffect(() => {
+		async function makeCards() {
+			const cards = await generateCards();
+			setCards(cards);
+		}
+		makeCards();
+	}, []);
+
+	return (
+		<div className={styles.projectspage}>
+			<h1> Projects I&apos;ve worked on</h1>
+			<div className={styles.cardscontainer}>
+				{cardElements ?? 'Loading awesomeness'}
 			</div>
 		</div>
-	</div>
-);
+	);
+}
 
 export default Projects;

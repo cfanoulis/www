@@ -1,9 +1,31 @@
 .cardscontainer {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
- }
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
 
- .card {
-     border: 1px solid black
- }
+.card {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.projectspage {
+	background-color: whitesmoke;
+	width: 100vw;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	position: absolute;
+	font-family: 'Overpass Mono', monospace;
+	overflow: hidden;
+	padding: 1vw;
+}
+
+.cardtitle {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.carddesc {
+	font-size: small
+}
