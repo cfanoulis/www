@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sass": "^1.26.10",
-    "webpack": "^4.44.1"
+    "webpack": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "^14.10.1",
