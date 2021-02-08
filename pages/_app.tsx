@@ -11,6 +11,8 @@ export default class MyApp extends App {
 		return (
 			<>
 				<Head>
+					<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "82afc8e5618b40e38dc1670c59942894"}'></script>
+
 					<meta charSet="utf-8"/>
 					<meta
 						name="viewport"
@@ -34,7 +36,7 @@ export default class MyApp extends App {
 					<meta property="og:email" content="yo@fanoulis.dev"/>
 					<meta
 						property="og:description"
-						content="My name is Charalampos Fanoulis. Welcome to my site."
+						content="An aspiring student trying their luck in computer science. Greece."
 					/>
 
 					{/* <!-- Twitter Integration --> */}
@@ -42,7 +44,7 @@ export default class MyApp extends App {
 					<meta name="twitter:card" content="summary"/>
 					<meta
 						name="twitter:description"
-						content="My name is Charalampos Fanoulis. Welcome to my site."
+						content="An aspiring student trying their luck in computer science. Greece."
 					/>
 					<meta name="twitter:site" content="@cfanoulis"/>
 					<meta name="twitter:creator" content="@cfanoulis"/>
