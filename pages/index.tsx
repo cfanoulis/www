@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from 'next/head';
 
 import styles from '../stylesheets/pages/index.module.scss';
 const randomHello = () => {
@@ -9,9 +8,6 @@ const randomHello = () => {
 };
 
 const Index = () => (
-	<Head>
-		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "82afc8e5618b40e38dc1670c59942894"}'></script>
-	</Head>
 	<div className={styles.indexpage}>
 		<div className={styles.intro}>
 			<h1>
