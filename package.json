@@ -28,5 +28,8 @@
 		"build": "next build",
 		"start": "next start"
 	},
+	"resolutions": {
+		"elliptic": "^6.5.4"
+	},
 	"prettier": "@sapphire/prettier-config"
 }
