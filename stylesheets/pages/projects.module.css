@@ -1,6 +1,8 @@
+.back {
+	float: right;
+}
 .card {
-	min-width: 300px;
-	max-width: 400px;
+	min-width: 400px;
 	padding: 1rem;
 	border: 1px solid white;
 	width: auto;
@@ -27,9 +29,17 @@
 	padding: 3px;
 }
 
-@media screen and (max-width: 800px) {
+.cardlink {
+	font-weight: 400;
+	text-decoration-line: underline;
+	text-decoration-thickness: 1px;
+	text-decoration-style: solid;
+	text-decoration-color: white;
+}
+
+@media screen and (max-width: 830px) {
 	.card {
-		width: 600px;
+		min-width: 600px;
 		padding: 1rem;
 		border: 1px solid white;
 		width: auto;
@@ -40,6 +50,11 @@
 	.title {
 		padding: 1rem;
 	}
+
+	.projectscontainer {
+		margin: 0.5rem;
+		padding: 0.01vw;
+	}
 }
 
 @media screen and (max-width: 380px) {
@@ -49,7 +64,7 @@
 	}
 
 	.card {
-		max-width: 90%;
+		min-width: 90vw;
 		height: 100%;
 		padding: 0.25rem;
 		border: 1px solid white;

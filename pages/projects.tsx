@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import styles from '../stylesheets/pages/projects.module.css';
 const fetchProjects = () => {
@@ -79,6 +80,9 @@ const Projects = () => {
 
 	return (
 		<div className={styles.projectscontainer}>
+			<Link href="/">
+				<a className={styles.back}>&#8592; Go back</a>
+			</Link>
 			<h1 className={styles.title}> Projects I&apos;ve worked on</h1>
 			<div className={styles.cardscontainer}>{cardElements ?? 'Give it a second...'}</div>
 		</div>
