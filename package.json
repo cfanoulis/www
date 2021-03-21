@@ -4,7 +4,10 @@
 	"main": "dist/index.js",
 	"license": "MIT",
 	"dependencies": {
-		"elliptic": "6.5.4",
+		"@types/node": "^14.14.35",
+		"@types/node-fetch": "^2.5.8",
+		"@types/react": "^17.0.3",
+		"@types/react-dom": "^17.0.2",
 		"next": "10.0.9",
 		"node-fetch": "^2.6.1",
 		"react": "^17.0.1",
@@ -13,12 +16,8 @@
 	"devDependencies": {
 		"@sapphire/eslint-config": "^3.0.2",
 		"@sapphire/prettier-config": "^1.0.8",
-		"@types/node": "^14.14.35",
-		"@types/node-fetch": "^2.5.8",
-		"@types/react": "^17.0.3",
 		"@typescript-eslint/eslint-plugin": "^4.18.0",
 		"@typescript-eslint/parser": "^4.18.0",
-		"babel-eslint": "^10.1.0",
 		"eslint": "^7.22.0",
 		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
@@ -28,9 +27,6 @@
 		"dev": "next",
 		"build": "next build",
 		"start": "next start"
-	},
-	"resolutions": {
-		"elliptic": "6.5.3"
 	},
 	"prettier": "@sapphire/prettier-config"
 }
