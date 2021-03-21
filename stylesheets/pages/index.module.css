@@ -1,0 +1,53 @@
+.index {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.text {
+	font-size: 24px;
+	padding-right: 3rem;
+}
+.links {
+	font-size: 24px;
+}
+
+.textlink {
+	font-weight: 400;
+	text-decoration-line: underline;
+	text-decoration-thickness: 1px;
+	text-decoration-style: solid;
+	text-decoration-color: white;
+}
+
+@media screen and (max-width: 800px) {
+	.title {
+		font-size: 24px;
+	}
+	.text {
+		font-size: 18px;
+		padding-right: 1rem;
+	}
+	.links {
+		font-size: 18px;
+	}
+	.index {
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-height: 1000px) {
+	.title {
+		font-size: 4em;
+	}
+	.text {
+		font-size: 2em;
+	}
+	.links {
+		font-size: 2em;
+	}
+}

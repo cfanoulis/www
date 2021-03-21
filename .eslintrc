@@ -1,7 +1,6 @@
 {
-  "extends": [
-    "xo",
-    "xo-typescript",
-    "xo-react"
-  ],
+	"extends": "@sapphire",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	}
 }
