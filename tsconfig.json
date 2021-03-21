@@ -9,7 +9,6 @@
 		"experimentalDecorators": true,
 		"forceConsistentCasingInFileNames": true,
 		"importsNotUsedAsValues": "error",
-		"incremental": true,
 		"lib": ["esnext", "DOM"],
 		"module": "CommonJS",
 		"moduleResolution": "Node",
@@ -30,8 +29,10 @@
 		"noEmit": true,
 		"isolatedModules": true,
 		"jsx": "preserve",
-		"allowJs": true
+		"allowJs": true,
+		"tsBuildInfoFile": ".tsbuildinfo",
+		"incremental": true
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/projects.tsxδ"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules"]
 }
