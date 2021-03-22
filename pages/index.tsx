@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 import styles from '../stylesheets/pages/index.module.css';
 
@@ -28,17 +27,17 @@ const Index = () => (
 		</div>
 		<hr style={{ width: '50px', textAlign: 'left', marginLeft: 0, border: '0.25rem solid white' }} />
 		<div className={styles.links}>
-			<Link href="/projects">
-				<a className={styles.link}>Projects I&apos;ve worked on</a>
-			</Link>{' '}
+			<a href="/projects" target="_blank" rel="noreferrer" className={styles.link}>
+				Projects I&apos;ve worked on
+			</a>
 			<br />
 			<a href="https://github.com/cfanoulis" target="_blank" rel="noreferrer" className={styles.link}>
 				GitHub
-			</a>{' '}
+			</a>
 			<br />
 			<a href="https://twitter.com/cfanoulis" target="_blank" rel="noreferrer" className={styles.link}>
 				Twitter
-			</a>{' '}
+			</a>
 			<br />
 			<a href="mailto:yo@fanoulis.dev" className={styles.link}>
 				E-mail me
@@ -46,5 +45,9 @@ const Index = () => (
 		</div>
 	</div>
 );
+
+export function getStaticProps() {
+	return { props: {} };
+}
 
 export default Index;

@@ -107,4 +107,8 @@ const Projects = () => {
 	);
 };
 
+export function getStaticProps() {
+	return { props: {} };
+}
+
 export default Projects;
