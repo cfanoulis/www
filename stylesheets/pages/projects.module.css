@@ -2,7 +2,8 @@
 	float: right;
 }
 .card {
-	min-width: 400px;
+	min-width: 40vw;
+	max-width: 60vw;
 	padding: 1rem;
 	border: 1px solid white;
 	width: auto;
@@ -39,7 +40,7 @@
 
 @media screen and (max-width: 830px) {
 	.card {
-		min-width: 600px;
+		min-width: 60vw;
 		padding: 1rem;
 		border: 1px solid white;
 		width: auto;

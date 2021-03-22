@@ -16,7 +16,7 @@ p {
 }
 
 body::-webkit-scrollbar {
-	width: 1em;
+	width: 0.25em;
 }
 
 body::-webkit-scrollbar-track {
