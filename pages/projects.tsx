@@ -21,7 +21,7 @@ const fetchProjects = () => {
 			current: false,
 			links: [
 				{ name: 'Visit Skyra', link: 'https://skyra.pw' },
-				{ name: 'Skyra on GitHub', link: 'https://github.com/skyra-project/skyra' }
+				{ name: 'GitHub', link: 'https://github.com/skyra-project/skyra' }
 			]
 		},
 		{
@@ -40,8 +40,8 @@ const fetchProjects = () => {
 			description: 'Less-frustrating Typescript abstraction over the airtable JS SDK. Forked from victorhahn/airtable-plus',
 			current: true,
 			links: [
-				{ name: 'Club website', link: 'https://hackropolis.club' },
-				{ name: 'Club projects (on GitHub)', link: 'https://github.com/hackropolis' }
+				{ name: 'NPM', link: 'https://npmjs.com/airtable-plusplus' },
+				{ name: 'GitHub', link: 'https://github.com/hackropolis/airtable++' }
 			]
 		},
 		{
