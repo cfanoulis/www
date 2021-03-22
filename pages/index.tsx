@@ -19,18 +19,17 @@ const Index = () => (
 				, Greece's first student-run teenager computer club.
 				<br /> Volunteering as a Web Administator for{' '}
 				<a href="https://prwtovoulia.com" className={styles.textlink}>
-					Protovoulia Neon.
+					Protovoulia Neon
 				</a>
+				.
 				<br />
-				Currently interested in internships
+				Currently interested in internships for Summer 2021.
 			</p>
 		</div>
 		<hr style={{ width: '50px', textAlign: 'left', marginLeft: 0, border: '0.25rem solid white' }} />
 		<div className={styles.links}>
 			<Link href="/projects">
-				<a href="/projects" className={styles.link}>
-					Projects I&apos;ve worked on
-				</a>
+				<a className={styles.link}>Projects I&apos;ve worked on</a>
 			</Link>{' '}
 			<br />
 			<a href="https://github.com/cfanoulis" target="_blank" rel="noreferrer" className={styles.link}>
