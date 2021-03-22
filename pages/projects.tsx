@@ -41,7 +41,7 @@ const fetchProjects = () => {
 			current: true,
 			links: [
 				{ name: 'NPM', link: 'https://npmjs.com/airtable-plusplus' },
-				{ name: 'GitHub', link: 'https://github.com/hackropolis/airtable++' }
+				{ name: 'GitHub', link: 'https://github.com/hackropolis/airtable-plusplus' }
 			]
 		},
 		{
