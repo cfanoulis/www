@@ -1,5 +1,5 @@
+import { readFile } from 'fs/promises';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 import styles from '../stylesheets/pages/projects.module.css';
 interface IProject {
 	name: string;
@@ -11,48 +11,6 @@ interface IProject {
 		link: string;
 	}[];
 }
-
-const fetchProjects = () => {
-	return [
-		{
-			name: 'Skyra',
-			img: 'https://github.com/skyra-project.png',
-			description: 'Skyra is a robust All-in-One bot for Discord',
-			current: false,
-			links: [
-				{ name: 'Visit Skyra', link: 'https://skyra.pw' },
-				{ name: 'GitHub', link: 'https://github.com/skyra-project/skyra' }
-			]
-		},
-		{
-			name: 'Hackropolis',
-			img: 'https://github.com/hackropolis.png',
-			description: "Greece's first teenage maker club. Operating under the auspices of The Hack Foundation",
-			current: true,
-			links: [
-				{ name: 'Club website', link: 'https://hackropolis.club' },
-				{ name: 'Club projects (on GitHub)', link: 'https://github.com/hackropolis' }
-			]
-		},
-		{
-			name: 'Airtable++',
-			img: null,
-			description: 'Less-frustrating Typescript abstraction over the airtable JS SDK. Forked from victorhahn/airtable-plus',
-			current: true,
-			links: [
-				{ name: 'NPM', link: 'https://npmjs.com/airtable-plusplus' },
-				{ name: 'GitHub', link: 'https://github.com/hackropolis/airtable-plusplus' }
-			]
-		},
-		{
-			name: 'Network',
-			img: null,
-			current: false,
-			description: 'A social network inside Discord. Made for Discord Hack Week 2019',
-			links: [{ name: 'Github Repository ', link: 'https://github.com/Skillz4Killz/network' }]
-		}
-	];
-};
 
 const generateCards = (projects: IProject[]) => {
 	return projects.map((project) => {
@@ -81,34 +39,53 @@ const generateCards = (projects: IProject[]) => {
 	});
 };
 
-const Projects = () => {
-	const [cardElements, setCards] = useState<null | { currentCards: JSX.Element[]; pastCards: JSX.Element[] }>(null);
-	useEffect(() => {
-		function makeCards() {
-			const proj = fetchProjects();
-			const currentCards = generateCards(proj.filter((e) => e.current));
-			const pastCards = generateCards(proj.filter((e) => !e.current));
-			setCards({ currentCards, pastCards });
-		}
+const Projects = (props: { data: IProject[]; err?: Error }) => {
+	if (!props.err) {
+		const curr = generateCards(props.data.filter((e) => e.current));
+		const prev = generateCards(props.data.filter((e) => !e.current));
 
-		makeCards();
-	}, []);
-
+		return (
+			<div className={styles.projectscontainer}>
+				<Link href="/">
+					<a className={styles.back}>&#8592; Go back</a>
+				</Link>
+				<h1 className={styles.title}> Projects I&apos;m a part of</h1>
+				<div className={styles.cardscontainer}>{curr ?? 'Give it a second...'}</div>
+				<h1 className={styles.title}> Projects I&apos;ve worked on</h1>
+				<div className={styles.cardscontainer}>{prev ?? 'Give it a second...'}</div>
+			</div>
+		);
+	}
 	return (
 		<div className={styles.projectscontainer}>
 			<Link href="/">
 				<a className={styles.back}>&#8592; Go back</a>
 			</Link>
-			<h1 className={styles.title}> Projects I&apos;m a part of</h1>
-			<div className={styles.cardscontainer}>{cardElements?.currentCards ?? 'Give it a second...'}</div>
-			<h1 className={styles.title}> Projects I&apos;ve worked on</h1>
-			<div className={styles.cardscontainer}>{cardElements?.pastCards ?? 'Give it a second...'}</div>
+			<h1 className={styles.title}> Welp, something went wrong.</h1>
+			<p>Maybe try again? Else email me, including the following error</p>
+			<br />
+			<br />
+			<code>{props.err}</code>
 		</div>
 	);
 };
 
-export function getStaticProps() {
-	return { props: {} };
+export async function getStaticProps() {
+	try {
+		const txt = await readFile('./public/static/projects.json', 'utf-8');
+		const data = JSON.parse(txt) as IProject[];
+		return { props: { data } };
+	} catch (error) {
+		return {
+			props: {
+				curr: [],
+				prev: [],
+				err: `${error.message}
+				
+		${error.stack}`
+			}
+		};
+	}
 }
 
 export default Projects;
