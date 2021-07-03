@@ -54,7 +54,7 @@
 		"description": "A social network inside Discord. Made for Discord Hack Week 2019",
 		"links": [
 			{
-				"name": "Github Repository",
+				"name": "GitHub Repository",
 				"link": "https://github.com/Skillz4Killz/network"
 			}
 		]
@@ -66,7 +66,7 @@
 		"description": "Simple, powerful Platform-as-a-Service for the Hack Club community. Currently helping with planning & some frontend work",
 		"links": [
 			{
-				"name": "Github",
+				"name": "GitHub",
 				"link": "https://github.com/hack-as-a-service"
 			}
 		]
@@ -78,7 +78,7 @@
 		"description": "Typescript rewrite of Hack Club's internal logistics system.",
 		"links": [
 			{
-				"name": "Github Repository",
+				"name": "GitHub Repository",
 				"link": "https://github.com/cfanoulis/dinobox/"
 			}
 		]
@@ -90,7 +90,7 @@
 		"description": "A library providing forms for Greek first names.",
 		"links": [
 			{
-				"name": "Github Repository",
+				"name": "GitHub Repository",
 				"link": "https://github.com/cfanoulis/klisi.ts/"
 			}
 		]
