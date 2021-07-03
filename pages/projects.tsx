@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../stylesheets/pages/projects.module.css';
 interface IProject {
@@ -16,7 +17,7 @@ const generateCards = (projects: IProject[]) => {
 		return (
 			<div key={project.name} className={styles.card}>
 				<div>
-					{project.img !== null && <img src={project.img} width={64} height={64} className={styles.cardimg} />}
+					{project.img !== null && <Image src={project.img} width={64} height={64} className={styles.cardimg} />}
 					<p className={styles.cardtitle}>{project.name}</p>
 					<p className={styles.carddesc}>{project.description}</p>
 					<br />
