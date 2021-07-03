@@ -1,4 +1,3 @@
-import { readFile } from 'fs/promises';
 import Link from 'next/link';
 import styles from '../stylesheets/pages/projects.module.css';
 interface IProject {
@@ -70,10 +69,9 @@ const Projects = (props: { data: IProject[]; err?: Error }) => {
 	);
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 	try {
-		const txt = await readFile('./public/static/projects.json', 'utf-8');
-		const data = JSON.parse(txt) as IProject[];
+		const data = await fetch('https://fanoulis.dev/static/projects.json').then((res) => res.json());
 		return { props: { data } };
 	} catch (error) {
 		return {

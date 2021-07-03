@@ -23,7 +23,7 @@ const Index = () => (
 		</div>
 		<hr style={{ width: '50px', textAlign: 'left', marginLeft: 0, border: '0.25rem solid white' }} />
 		<div className={styles.links}>
-			<a href="/projects" target="_blank" rel="noreferrer" className={styles.link}>
+			<a href="/projects" rel="noreferrer" className={styles.link}>
 				Projects I&apos;ve worked on
 			</a>
 			<br />
