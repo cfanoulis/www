@@ -58,5 +58,41 @@
 				"link": "https://github.com/Skillz4Killz/network"
 			}
 		]
+	},
+	{
+		"name": "Hack as a Service",
+		"img": "https://github.com/hack-as-a-service.png",
+		"current": true,
+		"description": "Simple, powerful Platform-as-a-Service for the Hack Club community. Currently helping with planning & some frontend work",
+		"links": [
+			{
+				"name": "Github",
+				"link": "https://github.com/hack-as-a-service"
+			}
+		]
+	},
+	{
+		"name": "Dinobox",
+		"img": "https://github.com/cfanoulis/dinobox/blob/main/.github/readme-assets/dinobox.png?raw=true",
+		"current": true,
+		"description": "Typescript rewrite of Hack Club's internal logistics system.",
+		"links": [
+			{
+				"name": "Github Repository",
+				"link": "https://github.com/cfanoulis/dinobox/"
+			}
+		]
+	},
+	{
+		"name": "klisi.ts",
+		"img": null,
+		"current": true,
+		"description": "A library providing forms for Greek first names.",
+		"links": [
+			{
+				"name": "Github Repository",
+				"link": "https://github.com/cfanoulis/klisi.ts/"
+			}
+		]
 	}
 ]
