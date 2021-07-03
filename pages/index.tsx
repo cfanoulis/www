@@ -27,11 +27,11 @@ const Index = () => (
 				Projects I&apos;ve worked on
 			</a>
 			<br />
-			<a href="https://github.com/cfanoulis" target="_blank" rel="noreferrer" className={styles.link}>
+			<a href="https://l.fanoulis.dev/github" target="_blank" rel="noreferrer" className={styles.link}>
 				GitHub
 			</a>
 			<br />
-			<a href="https://twitter.com/cfanoulis" target="_blank" rel="noreferrer" className={styles.link}>
+			<a href="https://fanoulis.dev/twt" target="_blank" rel="noreferrer" className={styles.link}>
 				Twitter
 			</a>
 			<br />
