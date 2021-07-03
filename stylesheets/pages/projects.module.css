@@ -2,12 +2,9 @@
 	float: right;
 }
 .card {
-	min-width: 40vw;
-	max-width: 60vw;
 	padding: 1rem;
 	border: 1px solid white;
 	width: auto;
-	margin: 1rem;
 	overflow: auto;
 	display: flex;
 	flex-direction: column;
@@ -15,10 +12,12 @@
 }
 
 .cardscontainer {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	/* This is better for small screens, once min() is better supported */
+	/* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+	column-gap: 1vw;
+	row-gap: 1vh;
 }
 
 .projectscontainer {
@@ -36,59 +35,4 @@
 	text-decoration-thickness: 1px;
 	text-decoration-style: solid;
 	text-decoration-color: white;
-}
-
-@media screen and (max-width: 830px) {
-	.card {
-		min-width: 60vw;
-		padding: 1rem;
-		border: 1px solid white;
-		width: auto;
-		margin: 0.75rem;
-		overflow: auto;
-	}
-
-	.title {
-		padding: 1rem;
-	}
-
-	.projectscontainer {
-		margin: 0.5rem;
-		padding: 0.01vw;
-	}
-}
-
-@media screen and (max-width: 380px) {
-	.projectscontainer {
-		margin: 0px !important;
-		padding: 0.01vw;
-	}
-
-	.card {
-		min-width: 90vw;
-		height: 100%;
-		padding: 0.25rem;
-		border: 1px solid white;
-		width: auto;
-		margin-bottom: 1rem;
-		overflow: auto;
-	}
-
-	.title {
-		padding-left: 1rem;
-	}
-
-	.cardimg {
-		float: right;
-		padding: 1px;
-	}
-}
-
-@media screen and (min-height: 1000px) {
-	.title {
-		font-size: 4em;
-	}
-	.card {
-		font-size: 1.5em;
-	}
 }

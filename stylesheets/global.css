@@ -29,13 +29,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
-	padding: 5rem;
-}
-
-@media screen and (max-width: 800px) {
-	.container {
-		padding: 0px;
-	}
+	padding: 5em;
 }
 
 a {

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../stylesheets/pages/index.module.css';
 
 const Index = () => (
@@ -9,20 +8,17 @@ const Index = () => (
 				<br />
 				I&apos;m Charalampos Fanoulis
 			</h1>
+			<h5>
+				<i>If it doesn't exist, why not make it yourself?</i>
+			</h5>
 			<p>
-				Making stuff with JavaScript, TypeScript & Rust.
+				Full-time student, part-time maker & open-source contributor
 				<br /> Leading{' '}
 				<a href="https://hackropolis.club" className={styles.textlink}>
 					Hackropolis
 				</a>
 				, Greece's first student-run teenager computer club.
-				<br /> Volunteering as a Web Administator for{' '}
-				<a href="https://prwtovoulia.com" className={styles.textlink}>
-					Protovoulia Neon
-				</a>
-				.
 				<br />
-				Currently interested in internships for Summer 2021.
 			</p>
 		</div>
 		<hr style={{ width: '50px', textAlign: 'left', marginLeft: 0, border: '0.25rem solid white' }} />
