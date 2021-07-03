@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width, viewport-fit=cover" />
-				<meta name="description" content="15 year-old Greek student, leader of a Hack Club, part-time stuff maker" />
+				<meta name="description" content="An aspiring student trying their luck in computer science. Greece." />
 				<meta name="summary" content="An aspiring student trying their luck in computer science. Greece." />
 
 				{/* <!-- Open Graph integration --> */}
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta property="og:url" content="https://fanoulis.dev" />
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:email" content="yo@fanoulis.dev" />
-				<meta property="og:description" content="15 year-old Greek student, leader of a Hack Club, part-time stuff maker" />
+				<meta property="og:description" content="An aspiring student trying their luck in computer science. Greece." />
 
 				{/* <!-- Twitter Integration --> */}
 				<meta name="twitter:title" content="Charalampos Fanoulis's website" />
