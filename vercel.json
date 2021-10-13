@@ -1,7 +1,0 @@
-{
-	"redirects": [
-		{ "source": "/paypal", "destination": "https://www.paypal.com/donate?hosted_button_id=76K7J2L9SYX5U" },
-		{ "source": "/gh", "destination": "https://github.com/cfanoulis" },
-		{ "source": "/twt", "destination": "https://twitter.com/cfanoulis" }
-	]
-}
