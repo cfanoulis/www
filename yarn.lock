@@ -2438,16 +2438,6 @@
     eslint-plugin-react-hooks "4.3.0"
     prettier "2.4.1"
 
-"@redwoodjs/forms@0.39.3":
-  version "0.39.3"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.39.3.tgz#6ce5b37d6e5d504894564eccccfaebca43eacace"
-  integrity sha512-Z6OMmG5Og7ms/0fNJf/IMFzqBe37y8YCa/Uafad5C69Q68O6vPlgysZcfvdZ1UPUZOHEw+fBP9dpNW5dkxVamA==
-  dependencies:
-    "@types/pascalcase" "1.0.1"
-    core-js "3.19.1"
-    pascalcase "1.0.0"
-    react-hook-form "7.19.5"
-
 "@redwoodjs/graphql-server@0.39.3":
   version "0.39.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/graphql-server/-/graphql-server-0.39.3.tgz#1d0fd230f798a570061ac783e78eab9f9a6fc7c0"
@@ -3800,11 +3790,6 @@
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-5.0.3.tgz#e7b5aebbac150f8b5fdd4a46e7f0bd8e65e19109"
   integrity sha512-kUNnecmtkunAoQ3CnjmMkzNU/gtxG8guhi+Fk2U/kOpIKjIMKnXGp4IJCgQJrXSgMsWYimYG4TGjz/UzbGEBTw==
-
-"@types/pascalcase@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/pascalcase/-/pascalcase-1.0.1.tgz#2466c1e23713c1681320e49449643e3f16c84f33"
-  integrity sha512-JYPox1hbKw66Sv9HtvTp0r5jJkaz6k+V8XjEnZUb7B+4ffIoS+3sjiAtwkX6IMO68UQtQWe9QcAjugn9VR4GJg==
 
 "@types/prettier@^2.1.5":
   version "2.4.2"
@@ -14316,11 +14301,6 @@ react-helmet-async@^1.0.7:
     prop-types "^15.7.2"
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
-
-react-hook-form@7.19.5:
-  version "7.19.5"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.19.5.tgz#cc6087419facf2fb57d47d5b0d4a8ca63201298f"
-  integrity sha512-+M9gd0nWWASuEitf5PQGOGNElnHknzY3rGISrPDXwsOmZb7c/jyvkRUqk4OJXaZit1ZwesSv+EysttdAeFEfmw==
 
 react-hot-toast@2.1.1:
   version "2.1.1"

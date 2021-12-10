@@ -13,7 +13,6 @@
 		]
 	},
 	"dependencies": {
-		"@redwoodjs/forms": "0.39.3",
 		"@redwoodjs/router": "0.39.3",
 		"@redwoodjs/web": "0.39.3",
 		"prop-types": "15.7.2",
