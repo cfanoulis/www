@@ -1,6 +1,7 @@
 # cfanoulis/www
 
 My personal website (v3), written in Redwood
+
 ### Setup
 
 We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:

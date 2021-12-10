@@ -1,7 +1,7 @@
-import LandingPage from './LandingPage'
+import LandingPage from './LandingPage';
 
 export const generated = () => {
-  return <LandingPage />
-}
+	return <LandingPage />;
+};
 
-export default { title: 'Pages/LandingPage' }
+export default { title: 'Pages/LandingPage' };

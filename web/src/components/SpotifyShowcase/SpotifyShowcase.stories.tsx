@@ -1,7 +1,7 @@
-import SpotifyShowcase from './SpotifyShowcase'
+import SpotifyShowcase from './SpotifyShowcase';
 
 export const generated = () => {
-  return <SpotifyShowcase />
-}
+	return <SpotifyShowcase />;
+};
 
-export default { title: 'Components/SpotifyShowcase' }
+export default { title: 'Components/SpotifyShowcase' };

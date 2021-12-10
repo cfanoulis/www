@@ -1,11 +1,11 @@
-import { render } from '@redwoodjs/testing/web'
+import { render } from '@redwoodjs/testing/web';
 
-import LandingPage from './LandingPage'
+import LandingPage from './LandingPage';
 
 describe('LandingPage', () => {
-  it('renders successfully', () => {
-    expect(() => {
-      render(<LandingPage />)
-    }).not.toThrow()
-  })
-})
+	it('renders successfully', () => {
+		expect(() => {
+			render(<LandingPage />);
+		}).not.toThrow();
+	});
+});
