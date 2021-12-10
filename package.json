@@ -20,6 +20,6 @@
 		"yarn": ">=1.15 <2"
 	},
 	"scripts": {
-		"fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml}"
+		"fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml,html}"
 	}
 }
