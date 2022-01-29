@@ -11,5 +11,5 @@ module.exports = {
 			heading: ['"Space Grotesk"', 'sans-serif']
 		}
 	},
-	plugins: ['']
+	plugins: []
 };
