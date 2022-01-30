@@ -5,15 +5,15 @@ const LandingPage = () => {
 	return (
 		<div className="h-screen w-screen p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
 			<MetaTags
-				title="Charalampos Fanoulis"
+				title="student, dreamer, maker"
 				// description="Landing description"
 				/* you should un-comment description and add a unique description, 155 characters or less
-        You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
+				You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
 			/>
-			<h2 className="text-2xl">Greetings, I&apos;m</h2>
+			<h2 className="text-xl">Greetings, I&apos;m</h2>
 			<br />
-			<h1 className="text-4xl">Charalampos Fanoulis</h1>
-			<h1 className="text-lg italic font-thin">student, dreamer, maker</h1>
+			<h1 className="text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
+			<h1 className="text-lg italic font-thin font-heading">student, dreamer, maker</h1>
 			<br />
 			<LandingPageSection title="about">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis. Pellentesque fermentum,

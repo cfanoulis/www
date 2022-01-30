@@ -14,13 +14,24 @@
 
 @layer base {
 	@font-face {
-		font-family: Space Grotesk;
-		src: local('Space Grotesk'), url(../public/fonts/SpaceGrotesk.ttf) format('truetype');
-		font-display: swap;
-	}
-	@font-face {
 		font-family: Readex Pro;
 		src: local('Readex Pro'), url(../public/fonts/ReadexPro.ttf) format('truetype');
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: Arsenica;
+		font-weight: 300;
+		font-style: normal;
+		src: local('Arsenica'), url(../public/fonts/ArsenicaRegular.ttf) format('truetype');
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: Arsenica;
+		font-weight: 500;
+		font-style: normal;
+		src: local('Arsenica'), url(../public/fonts/ArsenicaDemibold.ttf) format('truetype');
 		font-display: swap;
 	}
 }
