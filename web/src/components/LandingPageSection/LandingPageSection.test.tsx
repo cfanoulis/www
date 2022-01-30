@@ -1,11 +1,11 @@
 import { render } from '@redwoodjs/testing/web';
 
-import ProjectsPage from './ProjectsPage';
+import LandingPageSection from './LandingPageSection';
 
-describe('ProjectsPage', () => {
+describe('LandingPageSection', () => {
 	it('renders successfully', () => {
 		expect(() => {
-			render(<ProjectsPage />);
+			render(<LandingPageSection />);
 		}).not.toThrow();
 	});
 });

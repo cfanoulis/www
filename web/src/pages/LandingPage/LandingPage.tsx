@@ -1,42 +1,35 @@
-import { Link } from '@redwoodjs/router';
 import { MetaTags } from '@redwoodjs/web';
-import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';
+import LandingPageSection from 'src/components/LandingPageSection/LandingPageSection';
 
 const LandingPage = () => {
 	return (
-		<div className="h-screen w-screen flex flex-col justify-center lg:p-16 bg-blue-200">
+		<div className="h-screen w-screen p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
 			<MetaTags
 				title="Charalampos Fanoulis"
 				// description="Landing description"
 				/* you should un-comment description and add a unique description, 155 characters or less
         You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
 			/>
-			<div className="glass lg:w-7/12 p-8 rounded ">
-				<h1 className="font-heading text-4xl font-bold mb-8">Well hello, I&apos;m Charalampos</h1>
-				<p className="font-sans mb-4">
-					I&apos;m a sophomore student in Thessaloniki, GR, while also writing code in my free time, participating & maintaining open-source{' '}
-					<Link to="/projects" className="underline">
-						projects ↗
-					</Link>{' '}
-					and participating in{' '}
-					<a href="https://hackclub.com/?ref=fanoulis" className="underline">
-						Hack Club ↗
-					</a>
-					, an online community for teenagers in computer sciences.
-				</p>
-				<SpotifyShowcase className="mb-4" />
-				<div className="flex sm:flex-row">
-					<a className="sm:text-sm mr-4 underline" href="https://fanoulis.dev/twt">
-						My Twitter ↗
-					</a>
-					<a className="sm:text-sm mr-4 underline" href="https://fanoulis.dev/gh">
-						My GitHub ↗
-					</a>
-					<a className="sm:text-sm underline" href="mailto:yo@fanoulis.dev">
-						Email me →
-					</a>
-				</div>
-			</div>
+			<h2 className="text-2xl">Greetings, I&apos;m</h2>
+			<br />
+			<h1 className="text-4xl">Charalampos Fanoulis</h1>
+			<h1 className="text-lg italic font-thin">student, dreamer, maker</h1>
+			<br />
+			<LandingPageSection title="about">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis. Pellentesque fermentum,
+				diam eu vestibulum accumsan, nisl neque maximus lorem, nec tincidunt nisi eros quis elit. Sed egestas arcu dui. Sed cursus bibendum
+				semper. In laoreet lorem in augue sollicitudin pharetra. Sed vestibulum id magna vitae ullamcorper. Nulla pharetra et mauris in
+				consectetur. Aliquam finibus fringilla aliquam. Quisque aliquam enim vitae nisi molestie, consequat luctus purus consequat. Vestibulum
+				ac dignissim elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac odio congue,
+				dapibus ipsum ut, placerat lectus. Ut eleifend felis et efficitur euismod. Donec semper accumsan euismod. Praesent et justo et leo
+				varius semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis.
+				Pellentesque fermentum, diam eu vestibulum accumsan, nisl neque maximus lorem, nec tincidunt nisi eros quis elit. Sed egestas arcu
+				dui. Sed cursus bibendum semper. In laoreet lorem in augue sollicitudin pharetra. Sed vestibulum id magna vitae ullamcorper. Nulla
+				pharetra et mauris in consectetur. Aliquam finibus fringilla aliquam. Quisque aliquam enim vitae nisi molestie, consequat luctus purus
+				consequat. Vestibulum ac dignissim elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				In ac odio congue, dapibus ipsum ut, placerat lectus. Ut eleifend felis et efficitur euismod. Donec semper accumsan euismod. Praesent
+				et justo et leo varius semper.{' '}
+			</LandingPageSection>
 		</div>
 	);
 };
