@@ -8,7 +8,8 @@ module.exports = {
 			}
 		},
 		fontFamily: {
-			heading: ['"Space Grotesk"', 'sans-serif']
+			heading: ['Arsenica', 'sans-serif'],
+
 		}
 	},
 	plugins: ['']
