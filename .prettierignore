@@ -1,2 +1,13 @@
 .redwood
 web/dist
+node/modules
+.editorconfig
+yarn.lock
+web
+*.ttf
+*.woff*
+.keep
+LICENSE
+.gitignore
+.nvmrc
+.prettierignore
