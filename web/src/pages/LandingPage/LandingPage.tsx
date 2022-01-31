@@ -3,7 +3,7 @@ import LandingPageSection from 'src/components/LandingPageSection/LandingPageSec
 
 const LandingPage = () => {
 	return (
-		<div className="h-screen w-screen p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
+		<div className="min-h-screen min-w-screen p-4 lg:p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
 			<MetaTags
 				title="student, dreamer, maker"
 				// description="Landing description"
@@ -12,8 +12,8 @@ const LandingPage = () => {
 			/>
 			<h2 className="text-xl">Greetings, I&apos;m</h2>
 			<br />
-			<h1 className="text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
-			<h1 className="text-lg italic font-thin font-heading">student, dreamer, maker</h1>
+			<h1 className="text-3xl md:text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
+			<h1 className="text-sm md:text-lg italic font-thin font-heading">student, dreamer, maker</h1>
 			<br />
 			<LandingPageSection title="about">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis. Pellentesque fermentum,
