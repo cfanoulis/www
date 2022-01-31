@@ -1,10 +1,10 @@
 const LandingPageSection = ({ children, title }: { children: React.ReactNode; title: string }) => {
 	return (
-		<div className="pt-16 md:flex">
+		<div className="pt-6 lg:pt-16 md:flex">
 			<div id="title-wrapper" className="md:pl-4 md:vertical-text md:rotate-180 flex md:justify-end text-xl md:text-2xl tracking-widest font-heading">
-				<div>{title}</div>
+				<h3>{title}</h3>
 			</div>
-			<div>{children}</div>
+			<p>{children}</p>
 		</div>
 	);
 };
