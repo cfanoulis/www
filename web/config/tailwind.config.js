@@ -8,8 +8,7 @@ module.exports = {
 			}
 		},
 		fontFamily: {
-			heading: ['Arsenica', 'sans-serif'],
-
+			heading: ['Arsenica', 'sans-serif']
 		}
 	},
 	plugins: ['']
