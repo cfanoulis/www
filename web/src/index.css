@@ -34,7 +34,6 @@
 		src: local('Arsenica'), url(../public/fonts/ArsenicaDemibold.ttf) format('truetype');
 		font-display: swap;
 	}
-
 }
 
 @layer components {
@@ -63,6 +62,7 @@
 	}
 }
 
-*::selection, *::-moz-selection {
+*::selection,
+*::-moz-selection {
 	@apply bg-gray-300 text-neutral-900;
 }
