@@ -1,12 +1,13 @@
 import { MetaTags } from '@redwoodjs/web';
 import LandingPageSection from 'src/components/LandingPageSection/LandingPageSection';
+import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';
 
 const LandingPage = () => {
 	return (
-		<div className="min-h-screen min-w-screen p-4 lg:p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
+		<div className="min-h-screen w-screen p-4 lg:p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
 			<MetaTags
-				title="student, dreamer, maker"
-				// description="Landing description"
+				title="Charalampos Fanoulis"
+				description="student, dreamer, maker"
 				/* you should un-comment description and add a unique description, 155 characters or less
 				You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
 			/>
@@ -15,20 +16,17 @@ const LandingPage = () => {
 			<h1 className="text-3xl md:text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
 			<h1 className="text-sm md:text-lg italic font-thin font-heading">student, dreamer, maker</h1>
 			<br />
-			<LandingPageSection title="about">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis. Pellentesque fermentum,
-				diam eu vestibulum accumsan, nisl neque maximus lorem, nec tincidunt nisi eros quis elit. Sed egestas arcu dui. Sed cursus bibendum
-				semper. In laoreet lorem in augue sollicitudin pharetra. Sed vestibulum id magna vitae ullamcorper. Nulla pharetra et mauris in
-				consectetur. Aliquam finibus fringilla aliquam. Quisque aliquam enim vitae nisi molestie, consequat luctus purus consequat. Vestibulum
-				ac dignissim elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac odio congue,
-				dapibus ipsum ut, placerat lectus. Ut eleifend felis et efficitur euismod. Donec semper accumsan euismod. Praesent et justo et leo
-				varius semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat lacus quis ipsum volutpat lobortis.
-				Pellentesque fermentum, diam eu vestibulum accumsan, nisl neque maximus lorem, nec tincidunt nisi eros quis elit. Sed egestas arcu
-				dui. Sed cursus bibendum semper. In laoreet lorem in augue sollicitudin pharetra. Sed vestibulum id magna vitae ullamcorper. Nulla
-				pharetra et mauris in consectetur. Aliquam finibus fringilla aliquam. Quisque aliquam enim vitae nisi molestie, consequat luctus purus
-				consequat. Vestibulum ac dignissim elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-				In ac odio congue, dapibus ipsum ut, placerat lectus. Ut eleifend felis et efficitur euismod. Donec semper accumsan euismod. Praesent
-				et justo et leo varius semper.{' '}
+			<SpotifyShowcase />
+			<LandingPageSection title="whoami">
+				I&apos;m a 17 year-old high-school STEM student from Thessaloniki, Greece. I started programming in 2018, using{' '}
+				<strong className="font-bold">Node.JS</strong> to create small Discord bots. Ever since, I have been given the opportunity to work
+				with amazing projects such as G4M3R, Skyra and others. As of lately, I&apos;m tinkering around with{' '}
+				<strong className="font-bold">Rust</strong> &amp; <strong className="font-bold">RedwoodJS</strong>, creating and maintaining small
+				apps &amp; open source libraries. I&apos;m also an active member in{' '}
+				<a className="underline" href="https://hackclub.com/">
+					Hack Club ↗
+				</a>
+				<br />
 			</LandingPageSection>
 		</div>
 	);
