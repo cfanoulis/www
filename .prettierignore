@@ -1,9 +1,9 @@
 .redwood
 web/dist
-node/modules
+web/public
+node_modules
 .editorconfig
 yarn.lock
-web
 *.ttf
 *.woff*
 .keep
