@@ -26,6 +26,7 @@ const LandingPage = () => {
 				<a className="underline" href="https://hackclub.com/">
 					Hack Club ↗
 				</a>
+				, cooperating with like-minded students from all around the world creating apps big and small.
 				<br />
 			</LandingPageSection>
 		</div>
