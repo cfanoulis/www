@@ -7,7 +7,7 @@ const LandingPageSection = ({ children, title }: { children: React.ReactNode; ti
 			>
 				<h3>{title}</h3>
 			</div>
-			<p className="leading-7">{children}</p>
+			<p>{children}</p>
 		</div>
 	);
 };

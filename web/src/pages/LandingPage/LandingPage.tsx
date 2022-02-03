@@ -29,6 +29,14 @@ const LandingPage = () => {
 				, cooperating with like-minded students from all around the world creating apps big and small.
 				<br />
 			</LandingPageSection>
+			<LandingPageSection title="contact">
+				<i className="italics text-xs">Please keep in mind: I live in <strong className="font-bold">Europe/Athens</strong> time. Slow response times should be expected when contacted outside working hours</i>
+				<ul>
+					<li>Shout at me on <a className="underline" href="https://twitter.com/cfanoulis">Twitter ↗</a>,</li>
+					<li>or send an email to <a className="underline" href="mailto:charalampos@fanoulis.dev?subject=%F0%9F%91%8B ">charalampos@fanoulis.dev ↗</a>,</li>
+					<li>or finally, send me a DM on Discord (not preferred): enkiel#8897</li>
+				</ul>
+			</LandingPageSection>
 		</div>
 	);
 };
