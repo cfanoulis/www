@@ -7,7 +7,7 @@ const LandingPageSection = ({ children, title }: { children: React.ReactNode; ti
 			>
 				<h3>{title}</h3>
 			</div>
-			<p>{children}</p>
+			<div>{children}</div>
 		</div>
 	);
 };

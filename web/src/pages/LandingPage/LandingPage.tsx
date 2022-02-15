@@ -1,7 +1,7 @@
 import { Link } from '@redwoodjs/router';
 import { MetaTags } from '@redwoodjs/web';
+import FeaturedProjectsShowcase from 'src/components/FeaturedProjectsShowcase/FeaturedProjectsShowcase';
 import LandingPageSection from 'src/components/LandingPageSection/LandingPageSection';
-import ProjectCard from 'src/components/ProjectCard/ProjectCard';
 import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';
 
 const LandingPage = () => {
@@ -30,14 +30,7 @@ const LandingPage = () => {
 				<br />
 			</LandingPageSection>
 			<LandingPageSection title="projects">
-				<div className="grid-cols-5 grid gap-3 mb-4">
-					<ProjectCard
-						featured
-						name="airtable++"
-						desc="Less-frustrating Typescript abstraction over the airtable JS SDK. Forked from victorhahn/airtable-plus"
-						url="https://github.com/cfanoulis/airtable-plusplus"
-					/>
-				</div>
+				<FeaturedProjectsShowcase />
 				<p>
 					View my complete portfolio{' '}
 					<Link to="/projects" className="underline">
