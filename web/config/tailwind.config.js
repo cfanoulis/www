@@ -11,5 +11,5 @@ module.exports = {
 			heading: ['Arsenica', 'sans-serif']
 		}
 	},
-	plugins: ['']
+	plugins: []
 };

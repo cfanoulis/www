@@ -1,25 +1,25 @@
 {
-	"private": true,
-	"workspaces": {
-		"packages": [
-			"api",
-			"web",
-			"packages/*"
-		]
-	},
-	"devDependencies": {
-		"@redwoodjs/core": "^0.43.0",
-		"@sapphire/prettier-config": "^1.2.7"
-	},
-	"eslintConfig": {
-		"extends": "@redwoodjs/eslint-config",
-		"root": true
-	},
-	"engines": {
-		"node": ">=14.17 <=16.x",
-		"yarn": ">=1.15 <2"
-	},
-	"scripts": {
-		"fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml,html}"
-	}
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "api",
+      "web",
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@redwoodjs/core": "^0.45.0",
+    "@sapphire/prettier-config": "^1.2.7"
+  },
+  "eslintConfig": {
+    "extends": "@redwoodjs/eslint-config",
+    "root": true
+  },
+  "engines": {
+    "node": ">=14.17 <=16.x",
+    "yarn": ">=1.15 <2"
+  },
+  "scripts": {
+    "fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml,html}"
+  }
 }
