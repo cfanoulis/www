@@ -1,0 +1,63 @@
+[
+	{
+		"name": "Skyra",
+		"img": "https://github.com/skyra-project.png",
+		"description": "Skyra is a robust All-in-One bot for Discord",
+		"current": false,
+		"featured": true,
+		"url":"https://github.com/skyra-project/skyra"
+	},
+	{
+		"name": "Hackropolis",
+		"img": "https://github.com/hackropolis.png",
+		"description": "Greece's first teenage maker club. Operating under the auspices of The Hack Foundation",
+		"current": false,
+		"featured": false,
+		"url": "https://hackropolis.club"
+	},
+	{
+		"name": "Airtable++",
+		"img": null,
+		"description": "Less-frustrating Typescript abstraction over the airtable JS SDK. Forked from victorhahn/airtable-plus",
+		"current": true,
+		"featured": false,
+
+		"url": "https://github.com/hackropolis/airtable-plusplus"
+	},
+	{
+		"name": "Network",
+		"img": "https://camo.githubusercontent.com/b2c1859c02c54e4fd9eb3374c6eed7fbe7fa9afd899e6405657ca494a25e0c4e/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3539313632333933313636343739333631322f3539343236383135383335333836363735362f6e6574776f726b2d626f742e706e67",
+		"current": false,
+		"featured": false,
+
+		"description": "A social network inside Discord. Made for Discord Hack Week 2019",
+		"url": "https://github.com/Skillz4Killz/network"
+	},
+	{
+		"name": "Hack as a Service",
+		"img": "https://github.com/hack-as-a-service.png",
+		"current": false,
+		"featured": false,
+
+		"description": "Simple, powerful Platform-as-a-Service for the Hack Club community. Currently helping with planning & some frontend work",
+		"url": "https://github.com/hack-as-a-service"
+	},
+	{
+		"name": "Dinobox",
+		"img": "https://github.com/cfanoulis/dinobox/blob/main/.github/readme-assets/dinobox.png?raw=true",
+		"current": true,
+		"featured": false,
+
+		"description": "Typescript rewrite of Hack Club's internal logistics system.",
+		"url": "https://github.com/cfanoulis/dinobox/"
+	},
+	{
+		"name": "klisi.ts",
+		"img": null,
+		"current": true,
+		"featured": true,
+
+		"description": "A library providing forms for Greek first names.",
+		"url": "https://github.com/cfanoulis/klisi.ts/"
+	}
+]
