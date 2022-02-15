@@ -67,6 +67,7 @@
 }
 
 *::selection,
+*::-webkit-selection,
 *::-moz-selection {
 	@apply bg-gray-300 text-neutral-900;
 }
