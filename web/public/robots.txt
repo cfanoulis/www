@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /twt
+Disallow: /gh
+Disallow: /donate-paypal
