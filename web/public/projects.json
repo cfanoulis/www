@@ -4,15 +4,15 @@
 		"img": "https://github.com/skyra-project.png",
 		"description": "Skyra is a robust All-in-One bot for Discord",
 		"current": false,
-		"featured": true,
+		"featured": false,
 		"url":"https://github.com/skyra-project/skyra"
 	},
 	{
 		"name": "Hackropolis",
 		"img": "https://github.com/hackropolis.png",
-		"description": "Greece's first teenage maker club. Operating under the auspices of The Hack Foundation",
+		"description": "Greece's first teenage maker club. Operated under the auspices of The Hack Foundation",
 		"current": false,
-		"featured": false,
+		"featured": true,
 		"url": "https://hackropolis.club"
 	},
 	{
@@ -20,7 +20,7 @@
 		"img": null,
 		"description": "Less-frustrating Typescript abstraction over the airtable JS SDK. Forked from victorhahn/airtable-plus",
 		"current": true,
-		"featured": false,
+		"featured": true,
 
 		"url": "https://github.com/hackropolis/airtable-plusplus"
 	},
