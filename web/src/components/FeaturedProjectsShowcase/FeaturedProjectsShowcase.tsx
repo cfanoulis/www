@@ -34,7 +34,7 @@ const FeaturedProjectsShowcase = () => {
 				></ProjectCard>
 		  ))
 		: [];
-	return <div className="grid-cols-5 md:grid gap-3 mb-4">{featuredProjectCards}</div>;
+	return <div className="grid-5cols-200min md:grid gap-3 mb-4">{featuredProjectCards}</div>;
 };
 
 export default FeaturedProjectsShowcase;
