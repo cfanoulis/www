@@ -7,12 +7,7 @@ import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';
 const LandingPage = () => {
 	return (
 		<div className="min-h-screen w-screen overflow-x-hidden p-4 lg:p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
-			<MetaTags
-				title="Charalampos Fanoulis"
-				description="student, dreamer, maker"
-				/* you should un-comment description and add a unique description, 155 characters or less
-				You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
-			/>
+			<MetaTags title="Charalampos Fanoulis" description="student, dreamer, maker" />
 			<h1 className="text-lg">Greetings, I&apos;m</h1>
 			<h1 className="text-4xl md:text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
 			<h2 className="text-sm md:text-lg italic font-thin font-heading">student, dreamer, maker</h2>
