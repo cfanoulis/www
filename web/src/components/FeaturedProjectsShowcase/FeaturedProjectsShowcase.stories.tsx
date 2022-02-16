@@ -1,7 +1,7 @@
-import FeaturedProjectsShowcase from './FeaturedProjectsShowcase'
+import FeaturedProjectsShowcase from './FeaturedProjectsShowcase';
 
 export const generated = () => {
-  return <FeaturedProjectsShowcase />
-}
+	return <FeaturedProjectsShowcase />;
+};
 
-export default { title: 'Components/FeaturedProjectsShowcase' }
+export default { title: 'Components/FeaturedProjectsShowcase' };

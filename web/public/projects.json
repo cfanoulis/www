@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Hackropolis",
-		"img": "https://github.com/hackropolis.png",
+		"img": "/projecticons/hackropolis.png",
 		"description": "Greece's first teenage maker club. Operated under the auspices of The Hack Foundation",
 		"current": false,
 		"featured": true,

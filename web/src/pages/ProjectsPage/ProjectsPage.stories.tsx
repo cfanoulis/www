@@ -1,7 +1,7 @@
-import ProjectsPage from './ProjectsPage'
+import ProjectsPage from './ProjectsPage';
 
 export const generated = () => {
-  return <ProjectsPage />
-}
+	return <ProjectsPage />;
+};
 
-export default { title: 'Pages/ProjectsPage' }
+export default { title: 'Pages/ProjectsPage' };

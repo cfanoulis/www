@@ -1,7 +1,7 @@
-import ProjectCard from './ProjectCard'
+import ProjectCard from './ProjectCard';
 
 export const generated = () => {
-  return <ProjectCard />
-}
+	return <ProjectCard />;
+};
 
-export default { title: 'Components/ProjectCard' }
+export default { title: 'Components/ProjectCard' };

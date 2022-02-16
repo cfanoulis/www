@@ -8,8 +8,8 @@ interface CardProps {
 
 const ProjectCard = (props: CardProps) => {
 	return (
-		<div className="mb-2 md:mb-0 border-2 p-2 rounded-sm border-slate-400 min-w-[200px]">
-			{props.img !== null && <img src={props.img} width={64} height={64} className="float-right ml-1" alt={`${props.name} logo`} />}
+		<div className="mb-2 md:mb-0 border-2 p-2 rounded-sm border-slate-400">
+			{props.img !== null && <img src={props.img} className="float-right ml-1 aspect-square sm:h-8" alt={`${props.name} logo`} />}
 
 			{props.featured ? (
 				<>
