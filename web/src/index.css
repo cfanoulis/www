@@ -42,9 +42,9 @@
 			writing-mode: vertical-lr;
 		}
 	}
-	
+
 	.grid-5cols-200min {
-		grid-template-columns: repeat(3,minmax(200px,1fr));
+		grid-template-columns: repeat(3, minmax(200px, 1fr));
 	}
 }
 

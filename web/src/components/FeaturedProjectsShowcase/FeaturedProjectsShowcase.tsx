@@ -5,6 +5,7 @@ interface ProjectDetails {
 	url: string;
 	featured: boolean;
 }
+
 import { useEffect, useRef, useState } from 'react';
 import ProjectCard from 'src/components/ProjectCard/ProjectCard';
 
@@ -34,11 +35,7 @@ const FeaturedProjectsShowcase = () => {
 				></ProjectCard>
 		  ))
 		: [];
-<<<<<<< HEAD
-	return <div className="grid-5cols-200min md:grid gap-3 mb-4">{featuredProjectCards}</div>;
-=======
-	return <div className="grid-cols-3 grid-flow-col md:grid gap-3 mb-4">{featuredProjectCards}</div>;
->>>>>>> fd11f1b (stuff)
+	return <div className="grid-5cols-200min mb-4 gap-3 md:grid">{featuredProjectCards}</div>;
 };
 
 export default FeaturedProjectsShowcase;

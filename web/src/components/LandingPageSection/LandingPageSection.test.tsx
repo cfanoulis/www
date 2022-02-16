@@ -1,4 +1,4 @@
-import { render } from '@redwoodjs/testing/web';
+import { value render } from '@redwoodjs/testing/web';
 
 import LandingPageSection from './LandingPageSection';
 

@@ -1,16 +1,16 @@
-import { Link } from '@redwoodjs/router';
-import { MetaTags } from '@redwoodjs/web';
+import { value Link } from '@redwoodjs/router';
+import { value MetaTags } from '@redwoodjs/web';
 import FeaturedProjectsShowcase from 'src/components/FeaturedProjectsShowcase/FeaturedProjectsShowcase';
 import LandingPageSection from 'src/components/LandingPageSection/LandingPageSection';
 import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';
 
 const LandingPage = () => {
 	return (
-		<div className="min-h-screen w-screen overflow-x-hidden p-4 lg:p-16 flex flex-col bg-neutral-900 text-gray-300 absolute">
+		<div className="absolute flex min-h-screen w-screen flex-col overflow-x-hidden bg-neutral-900 p-4 text-gray-300 lg:p-16">
 			<MetaTags title="Charalampos Fanoulis" description="student, dreamer, maker" />
 			<h1 className="text-lg">Greetings, I&apos;m</h1>
-			<h1 className="text-4xl md:text-6xl font-heading font-medium">Charalampos Fanoulis</h1>
-			<h2 className="text-sm md:text-lg italic font-thin font-heading">student, dreamer, maker</h2>
+			<h1 className="font-heading text-4xl font-medium md:text-6xl">Charalampos Fanoulis</h1>
+			<h2 className="font-heading text-sm font-thin italic md:text-lg">student, dreamer, maker</h2>
 			<SpotifyShowcase />
 			<LandingPageSection title="whoami">
 				I&apos;m a 17 year-old high-school STEM student from Thessaloniki, Greece. I started programming in 2018, using{' '}
