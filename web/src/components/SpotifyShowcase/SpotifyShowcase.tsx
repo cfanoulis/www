@@ -1,4 +1,4 @@
-import { value useLanyard } from 'use-lanyard';
+import { useLanyard } from 'use-lanyard';
 
 const SpotifyShowcase = ({ className }: { className?: string }) => {
 	const lanyard = useLanyard('489096182069461003');

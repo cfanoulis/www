@@ -1,4 +1,4 @@
-import { value FatalErrorBoundary, value RedwoodProvider } from '@redwoodjs/web';
+import { FatalErrorBoundary, RedwoodProvider } from '@redwoodjs/web';
 import FatalErrorPage from 'src/pages/FatalErrorPage';
 import Routes from 'src/Routes';
 import './index.css';

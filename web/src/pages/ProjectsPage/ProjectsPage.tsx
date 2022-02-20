@@ -1,5 +1,5 @@
-import { value Link, value routes } from '@redwoodjs/router';
-import { value MetaTags } from '@redwoodjs/web';
+import { Link, routes } from '@redwoodjs/router';
+import { MetaTags } from '@redwoodjs/web';
 
 const ProjectsPage = () => {
 	return (
@@ -19,6 +19,7 @@ const ProjectsPage = () => {
 					</Link>
 				</p>
 			</main>
+			w
 		</>
 	);
 };

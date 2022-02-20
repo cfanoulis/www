@@ -1,6 +1,6 @@
-import { value render } from '@redwoodjs/testing/web';
-
+import { render } from '@redwoodjs/testing/web';
 import SpotifyShowcase from './SpotifyShowcase';
+
 
 describe('SpotifyShowcase', () => {
 	it('renders successfully', () => {
