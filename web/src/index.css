@@ -37,10 +37,8 @@
 }
 
 @layer components {
-	@variants responsive {
-		.vertical-text {
-			writing-mode: vertical-lr;
-		}
+	.vertical-text {
+		writing-mode: vertical-lr;
 	}
 
 	.grid-5cols-200min {
