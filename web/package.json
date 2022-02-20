@@ -1,24 +1,24 @@
 {
-  "name": "web",
-  "version": "0.0.0",
-  "private": true,
-  "browserslist": {
-    "development": "last 3 versions, > 1%, not dead",
-    "production": "last 3 versions, > 1%, not dead"
-  },
-  "dependencies": {
-    "@redwoodjs/router": "^0.46.0",
-    "@redwoodjs/web": "^0.46.0",
-    "prop-types": "15.8.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "swr": "^1.2.2",
-    "use-lanyard": "^1.1.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.4",
-    "postcss-loader": "^6.2.1",
-    "tailwindcss": "^3.0.23"
-  }
+	"name": "web",
+	"version": "0.0.0",
+	"private": true,
+	"browserslist": {
+		"development": "last 3 versions, > 1%, not dead",
+		"production": "last 3 versions, > 1%, not dead"
+	},
+	"dependencies": {
+		"@redwoodjs/router": "^0.46.0",
+		"@redwoodjs/web": "^0.46.0",
+		"prop-types": "15.8.1",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"swr": "^1.2.2",
+		"use-lanyard": "^1.1.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.4",
+		"postcss-loader": "^6.2.1",
+		"tailwindcss": "^3.0.23"
+	}
 }
