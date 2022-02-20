@@ -22,5 +22,8 @@
 	},
 	"scripts": {
 		"fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml,html}"
+	},
+	"volta": {
+		"node": "16.14.0"
 	}
 }
