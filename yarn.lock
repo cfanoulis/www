@@ -2340,6 +2340,11 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.46.0.tgz#cb7f53c7e642c0c7a322279a94b8bdc6100a2705"
   integrity sha512-E+tHAHuKhvYerO6R70OCSkHJDjEIjtCSRh74FCWBUqwQK0TJQ81Ic3GLlH2DZxtJ6ThPxJTdpYJdHRXtRN+65A==
 
+"@redwoodjs/auth@0.47.0":
+  version "0.47.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.47.0.tgz#864f97e2c8b09f279b6023c417a935cd8fddec5e"
+  integrity sha512-QFOqqDacuFiYBlDpfS/b7+uHi9PsQto8D02IxR8I183ukAYAUTdUOzmVLMQ8H79Egqopb4UasQdeLmQYeswzvA==
+
 "@redwoodjs/cli@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.46.0.tgz#9c4adb8499e22a2c750f7dd87b3a01490acca0cb"
@@ -2539,13 +2544,23 @@
     mime-types "2.1.34"
     node-fetch "2.6.7"
 
-"@redwoodjs/router@0.46.0", "@redwoodjs/router@^0.46.0":
+"@redwoodjs/router@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.46.0.tgz#2cb7ddde6116bf26925108cff51c15bc502eb77a"
   integrity sha512-dgVp5mixTTTqeH4wgaED9Yk/qlWu/hpkj+sdUsYzbYmYSbjtnsvRZhJULWljCG7Rv2+u9io8f7KpXxAliOdVJg==
   dependencies:
     "@reach/skip-nav" "0.16.0"
     "@redwoodjs/auth" "0.46.0"
+    core-js "3.21.1"
+    lodash.isequal "4.5.0"
+
+"@redwoodjs/router@^0.47.0":
+  version "0.47.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.47.0.tgz#9422344e3d1eea677df0257c3653e07150f4dc4b"
+  integrity sha512-DDgwKlZt9f0KfpaHQ6FHeFhOIcohF8LDMMVn+DTmg9W/aBMYyw1jJnOxvCoYTkmJTKlb1r3CGiZHSmQtAbtnrA==
+  dependencies:
+    "@reach/skip-nav" "0.16.0"
+    "@redwoodjs/auth" "0.47.0"
     core-js "3.21.1"
     lodash.isequal "4.5.0"
 
