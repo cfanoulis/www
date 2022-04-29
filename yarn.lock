@@ -2340,6 +2340,11 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.46.0.tgz#cb7f53c7e642c0c7a322279a94b8bdc6100a2705"
   integrity sha512-E+tHAHuKhvYerO6R70OCSkHJDjEIjtCSRh74FCWBUqwQK0TJQ81Ic3GLlH2DZxtJ6ThPxJTdpYJdHRXtRN+65A==
 
+"@redwoodjs/auth@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-1.2.0.tgz#f25196d732afb2a1c3c9fab495d6486dd82ff1f5"
+  integrity sha512-mmfhj6M5QKLJpycQNDYUVAsYpKQk1nq6m7UHEWQmKWJhlTYPz5ElfWS2K2aEVWIcs3Y+/YuqMxZwrQbuvbqpXA==
+
 "@redwoodjs/cli@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.46.0.tgz#9c4adb8499e22a2c750f7dd87b3a01490acca0cb"
@@ -2539,7 +2544,7 @@
     mime-types "2.1.34"
     node-fetch "2.6.7"
 
-"@redwoodjs/router@0.46.0", "@redwoodjs/router@^0.46.0":
+"@redwoodjs/router@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.46.0.tgz#2cb7ddde6116bf26925108cff51c15bc502eb77a"
   integrity sha512-dgVp5mixTTTqeH4wgaED9Yk/qlWu/hpkj+sdUsYzbYmYSbjtnsvRZhJULWljCG7Rv2+u9io8f7KpXxAliOdVJg==
@@ -2547,6 +2552,16 @@
     "@reach/skip-nav" "0.16.0"
     "@redwoodjs/auth" "0.46.0"
     core-js "3.21.1"
+    lodash.isequal "4.5.0"
+
+"@redwoodjs/router@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-1.2.0.tgz#45c76d219f51f5f9827115e1b8733548ef41b40d"
+  integrity sha512-5AgN5gA/joitjW+pQEZdzDIAbhxw4G9BarYgjb50ASUl2IdJ1RMLVSAOFCF/6Cd1bwBmvBEYFWUZl6u7QH9Ceg==
+  dependencies:
+    "@reach/skip-nav" "0.16.0"
+    "@redwoodjs/auth" "1.2.0"
+    core-js "3.22.2"
     lodash.isequal "4.5.0"
 
 "@redwoodjs/structure@0.46.0":
@@ -6576,6 +6591,11 @@ core-js@3.21.1, core-js@^3.0.4, core-js@^3.19.0, core-js@^3.6.5, core-js@^3.8.2:
   version "3.21.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
   integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
+
+core-js@3.22.2:
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.2.tgz#3ea0a245b0895fa39d1faa15fe75d91ade504a01"
+  integrity sha512-Z5I2vzDnEIqO2YhELVMFcL1An2CIsFe9Q7byZhs8c/QxummxZlAHw33TUHbIte987LkisOgL0LwQ1P9D6VISnA==
 
 core-util-is@~1.0.0:
   version "1.0.3"
