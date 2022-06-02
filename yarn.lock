@@ -2340,6 +2340,14 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.46.0.tgz#cb7f53c7e642c0c7a322279a94b8bdc6100a2705"
   integrity sha512-E+tHAHuKhvYerO6R70OCSkHJDjEIjtCSRh74FCWBUqwQK0TJQ81Ic3GLlH2DZxtJ6ThPxJTdpYJdHRXtRN+65A==
 
+"@redwoodjs/auth@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-1.5.1.tgz#3f7c91cfcb7a723583860883dd8dd6f6ad0cb38d"
+  integrity sha512-KXujx7GXmEaNCO6v4RKO0dD8ZQn8OVvNDCxrF4U5SsbiHKz2Oh+oOFv2XFErRWVKGCs0s/omz/G2JA2kupLg3Q==
+  dependencies:
+    "@babel/runtime-corejs3" "7.16.7"
+    core-js "3.22.5"
+
 "@redwoodjs/cli@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.46.0.tgz#9c4adb8499e22a2c750f7dd87b3a01490acca0cb"
@@ -2539,7 +2547,7 @@
     mime-types "2.1.34"
     node-fetch "2.6.7"
 
-"@redwoodjs/router@0.46.0", "@redwoodjs/router@^0.46.0":
+"@redwoodjs/router@0.46.0":
   version "0.46.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.46.0.tgz#2cb7ddde6116bf26925108cff51c15bc502eb77a"
   integrity sha512-dgVp5mixTTTqeH4wgaED9Yk/qlWu/hpkj+sdUsYzbYmYSbjtnsvRZhJULWljCG7Rv2+u9io8f7KpXxAliOdVJg==
@@ -2547,6 +2555,17 @@
     "@reach/skip-nav" "0.16.0"
     "@redwoodjs/auth" "0.46.0"
     core-js "3.21.1"
+    lodash.isequal "4.5.0"
+
+"@redwoodjs/router@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-1.5.1.tgz#af04bcc9752f483e950f69a35e0a1105f1c4a609"
+  integrity sha512-70N0+SjZ3Q9KV/XpoY81QBxz2SfDuRuNCFpgts82S7UNpUWde0/Oac7t9+m4i+n+dWx7b1fIJVGXKH5/ZA+AbQ==
+  dependencies:
+    "@babel/runtime-corejs3" "7.16.7"
+    "@reach/skip-nav" "0.16.0"
+    "@redwoodjs/auth" "1.5.1"
+    core-js "3.22.5"
     lodash.isequal "4.5.0"
 
 "@redwoodjs/structure@0.46.0":
@@ -6576,6 +6595,11 @@ core-js@3.21.1, core-js@^3.0.4, core-js@^3.19.0, core-js@^3.6.5, core-js@^3.8.2:
   version "3.21.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
   integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
+
+core-js@3.22.5:
+  version "3.22.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.5.tgz#a5f5a58e663d5c0ebb4e680cd7be37536fb2a9cf"
+  integrity sha512-VP/xYuvJ0MJWRAobcmQ8F2H6Bsn+s7zqAAjFaHGBMc5AQm7zaelhD1LGduFn2EehEcQcU+br6t+fwbpQ5d1ZWA==
 
 core-util-is@~1.0.0:
   version "1.0.3"
