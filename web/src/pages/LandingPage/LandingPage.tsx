@@ -1,5 +1,6 @@
 import { Link } from '@redwoodjs/router';
 import { MetaTags } from '@redwoodjs/web';
+
 import FeaturedProjectsShowcase from 'src/components/FeaturedProjectsShowcase/FeaturedProjectsShowcase';
 import LandingPageSection from 'src/components/LandingPageSection/LandingPageSection';
 import SpotifyShowcase from 'src/components/SpotifyShowcase/SpotifyShowcase';

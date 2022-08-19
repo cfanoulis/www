@@ -3,3 +3,4 @@ Allow: /
 Disallow: /twt
 Disallow: /gh
 Disallow: /donate-paypal
+Disallow: /email.txt
