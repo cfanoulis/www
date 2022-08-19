@@ -2,13 +2,13 @@ import { MetaTags } from '@redwoodjs/web';
 
 const HiatusPage = () => {
 	return (
-		<main className="absolute flex items-center justify-center h-screen w-screen flex-col overflow-x-hidden bg-neutral-900 p-4 text-gray-300 lg:p-64">
+		<main className="absolute flex items-center justify-center h-screen w-screen flex-col overflow-x-hidden lg:overflow-x-hidden bg-neutral-900 p-4 text-gray-300 lg:p-64">
 			<MetaTags title="Charalampos Fanoulis" description="student, dreamer, maker. currently on hiatus" />
 			<h1 className="text-4xl font-heading tracking-wider self-start mb-6">On hiatus</h1>
 			<p className="mb-4">
 				<span className="font-semibold text-lg text-justify">Hello!</span> I&apos;m Charalampos - a 17 y/o student from{' '}
-				<b>Thessaloniki, GR</b>. Having to focus solely on my education this year, as I&apos; sitting the Greek University Exams
-				(Panellinies), I&apos;m taking a break off developing &amp; maintaining my prijects such as{' '}
+				<b>Thessaloniki, GR</b>. Having to focus solely on my education this (very last!) year, I&apos;m taking a break off developing &amp;
+				maintaining my projects such as{' '}
 				<a className="font-medium underline" href="https://hugmyalbum.app">
 					Hug My Album
 				</a>{' '}
@@ -21,7 +21,7 @@ const HiatusPage = () => {
 				<a className="font-medium underline" href="email.txt">
 					e-mail
 				</a>
-				. I don&apos;t monitor Twitter, Signal or Telegram accounts associated with my name anymore
+				. I don&apos;t monitor Twitter, Signal or Telegram accounts associated with my name anymore.
 			</p>
 			<footer className="self-start">
 				See you in 2023!
