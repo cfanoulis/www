@@ -21,14 +21,14 @@ const HiatusPage = () => {
 				<a className="font-medium underline" href="email.txt">
 					e-mail
 				</a>
-				. I don&apos;t monitor Twitter, Signal or Telegram accounts associated with my name anymore.
+				. I won&apos;t be monitoring Twitter, Telegram, Signal or other social media accounts while on hiatus.
 			</p>
 			<footer className="self-start">
 				See you in 2023!
 				<br />
 				<span className="text-xs">(hopefully, as a university student that time around)</span>
 				<br />
-				<span className="font-heading">~charalampos</span>
+				<span className="font-heading">~ charalampos</span>
 			</footer>
 		</main>
 	);
