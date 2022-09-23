@@ -1181,6 +1181,14 @@
     core-js-pure "^3.19.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime-corejs3@7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.19.0.tgz#0df75cb8e5ecba3ca9e658898694e5326d52397f"
+  integrity sha512-JyXXoCu1N8GLuKc2ii8y5RGma5FMpFeO2nAQIe0Yzrbq+rQnN+sFj47auLblR5ka6aHNGPDgv8G/iI2Grb0ldQ==
+  dependencies:
+    core-js-pure "^3.20.2"
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
@@ -2527,6 +2535,14 @@
     "@babel/runtime-corejs3" "7.16.7"
     core-js "3.23.5"
 
+"@redwoodjs/auth@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-3.0.1.tgz#6a50794118f50d166e4af4b7d448dac49d04787e"
+  integrity sha512-y7QZuEVvPgU25IoUY9ZtXFAq4x/u/kk3bpOxzXV0gBh4ye2eFJSk0zqmQqQlXqQXsXhfu3YImxRe+2ojyOSeFA==
+  dependencies:
+    "@babel/runtime-corejs3" "7.19.0"
+    core-js "3.25.1"
+
 "@redwoodjs/cli@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-2.2.0.tgz#57186ec859e61b18fd74d4fc8179f36b1a2bba67"
@@ -2729,7 +2745,7 @@
     cross-undici-fetch "0.4.14"
     mime-types "2.1.35"
 
-"@redwoodjs/router@2.2.0", "@redwoodjs/router@^2.2.0":
+"@redwoodjs/router@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-2.2.0.tgz#7aecc98808ea87a5a9ee02b099eebfd23d5e05d2"
   integrity sha512-x+elheuBGFujCSp6QEBvHoQG5j1yuZPgcLmnCS82hALP+JC8m+uYmcV2bS309ykQSiRrKze9GPCAFhuuFF+vEA==
@@ -2738,6 +2754,17 @@
     "@reach/skip-nav" "0.16.0"
     "@redwoodjs/auth" "2.2.0"
     core-js "3.23.5"
+    lodash.isequal "4.5.0"
+
+"@redwoodjs/router@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-3.0.1.tgz#3be12faec7abcda3b6548340cc1165ac1aaf52f1"
+  integrity sha512-FXMP+xfQNUflQF4k599XhcuHU6zuethaNk6ULyVkBaBM80dj8I6rx4Ym/Ine+tc+XFEwm9M2oFvLS2V+D+G5Qw==
+  dependencies:
+    "@babel/runtime-corejs3" "7.19.0"
+    "@reach/skip-nav" "0.16.0"
+    "@redwoodjs/auth" "3.0.1"
+    core-js "3.25.1"
     lodash.isequal "4.5.0"
 
 "@redwoodjs/structure@2.2.0":
@@ -6990,10 +7017,20 @@ core-js-pure@^3.19.0, core-js-pure@^3.8.1:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.19.3.tgz#c69b2b36b58927317824994b532ec3f0f7e49607"
   integrity sha512-N3JruInmCyt7EJj5mAq3csCgGYgiSqu7p7TQp2KOztr180/OAIxyIvL1FCjzgmQk/t3Yniua50Fsak7FShI9lA==
 
+core-js-pure@^3.20.2:
+  version "3.25.2"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.25.2.tgz#44a4fd873bdd4fecf6ca11512bcefedbe87e744a"
+  integrity sha512-ItD7YpW1cUB4jaqFLZXe1AXkyqIxz6GqPnsDV4uF4hVcWh/WAGIqSqw5p0/WdsILM0Xht9s3Koyw05R3K6RtiA==
+
 core-js@3.23.5, core-js@^3.0.4, core-js@^3.19.0, core-js@^3.6.5, core-js@^3.8.2:
   version "3.23.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.5.tgz#1f82b0de5eece800827a2f59d597509c67650475"
   integrity sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg==
+
+core-js@3.25.1:
+  version "3.25.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.1.tgz#5818e09de0db8956e16bf10e2a7141e931b7c69c"
+  integrity sha512-sr0FY4lnO1hkQ4gLDr24K0DGnweGO1QwSj5BpfQjpSJPdqWalja4cTps29Y/PJVG/P7FYlPDkH3hO+Tr0CvDgQ==
 
 core-util-is@~1.0.0:
   version "1.0.3"
