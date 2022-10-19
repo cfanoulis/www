@@ -1181,6 +1181,14 @@
     core-js-pure "^3.19.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime-corejs3@7.19.1":
+  version "7.19.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.19.1.tgz#f0cbbe7edda7c4109cd253bb1dee99aba4594ad9"
+  integrity sha512-j2vJGnkopRzH+ykJ8h68wrHnEUmtK//E723jjixiAl/PPf6FhqY/vYRcMVlNydRKQjQsTsYEjpx+DZMIvnGk/g==
+  dependencies:
+    core-js-pure "^3.25.1"
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
@@ -2527,6 +2535,14 @@
     "@babel/runtime-corejs3" "7.16.7"
     core-js "3.23.5"
 
+"@redwoodjs/auth@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-3.2.0.tgz#1f5a551140ba8f90cdee22c52d3ed2111536c318"
+  integrity sha512-Zoa3nLwxI5oAJsEt1/M+aLo1B5aLVk9uVuqaLQafK26yL/1sQKuzFhPr75+XbbOik6dHSGfcEW2+eT3vGhfyOQ==
+  dependencies:
+    "@babel/runtime-corejs3" "7.19.1"
+    core-js "3.25.5"
+
 "@redwoodjs/cli@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-2.2.0.tgz#57186ec859e61b18fd74d4fc8179f36b1a2bba67"
@@ -2822,7 +2838,7 @@
     ts-toolbelt "9.6.0"
     whatwg-fetch "3.6.2"
 
-"@redwoodjs/web@2.2.0", "@redwoodjs/web@^2.2.0":
+"@redwoodjs/web@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-2.2.0.tgz#3c5a9665049201df66c0d749cb523d7bfe570377"
   integrity sha512-N0CtKOA/YIKmg4IMeQhDogYYC1GFe1FUJEzdZC3JOu6ffl1kMiazGYNM2VygKyWFb8Ei1Ecsm4/zxVM3JWqe6A==
@@ -2835,6 +2851,22 @@
     graphql-tag "2.12.6"
     react-helmet-async "1.3.0"
     react-hot-toast "2.3.0"
+    stacktracey "2.1.8"
+    ts-toolbelt "9.6.0"
+
+"@redwoodjs/web@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-3.2.0.tgz#beeae8358aefdd998fbc05e472e20e221b7fc916"
+  integrity sha512-vZSJsqwx1XcfYLIecTgo1JU8Jt6Nt3izqWVjpuH7LP+ITU3Ba1TvVbsFIJf5rvwQD6ktQzg0fMTqC/D9IscGGg==
+  dependencies:
+    "@apollo/client" "3.6.9"
+    "@babel/runtime-corejs3" "7.19.1"
+    "@redwoodjs/auth" "3.2.0"
+    core-js "3.25.5"
+    graphql "16.6.0"
+    graphql-tag "2.12.6"
+    react-helmet-async "1.3.0"
+    react-hot-toast "2.4.0"
     stacktracey "2.1.8"
     ts-toolbelt "9.6.0"
 
@@ -6990,10 +7022,20 @@ core-js-pure@^3.19.0, core-js-pure@^3.8.1:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.19.3.tgz#c69b2b36b58927317824994b532ec3f0f7e49607"
   integrity sha512-N3JruInmCyt7EJj5mAq3csCgGYgiSqu7p7TQp2KOztr180/OAIxyIvL1FCjzgmQk/t3Yniua50Fsak7FShI9lA==
 
+core-js-pure@^3.25.1:
+  version "3.25.5"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.25.5.tgz#79716ba54240c6aa9ceba6eee08cf79471ba184d"
+  integrity sha512-oml3M22pHM+igfWHDfdLVq2ShWmjM2V4L+dQEBs0DWVIqEm9WHCwGAlZ6BmyBQGy5sFrJmcx+856D9lVKyGWYg==
+
 core-js@3.23.5, core-js@^3.0.4, core-js@^3.19.0, core-js@^3.6.5, core-js@^3.8.2:
   version "3.23.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.5.tgz#1f82b0de5eece800827a2f59d597509c67650475"
   integrity sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg==
+
+core-js@3.25.5:
+  version "3.25.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.5.tgz#e86f651a2ca8a0237a5f064c2fe56cef89646e27"
+  integrity sha512-nbm6eZSjm+ZuBQxCUPQKQCoUEfFOXjUZ8dTTyikyKaWrTYmAVbykQfwsKE5dBK88u3QCkCrzsx/PPlKfhsvgpw==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -9744,6 +9786,11 @@ graphql@16.5.0, graphql@^16.3.0:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
   integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
+
+graphql@16.6.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -14625,6 +14672,13 @@ react-hot-toast@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-hot-toast/-/react-hot-toast-2.3.0.tgz#70b3d183ac2a4afb6b17cda4a7f4cfe02e730415"
   integrity sha512-/RxV+bfjld7tSJR1SCLzMAXgFuNW7fCpK6+vbYqfmbGSWcqTMz2rizrvfWKvtcPH5HK0NqxmBaC5SrAy1F42zA==
+  dependencies:
+    goober "^2.1.10"
+
+react-hot-toast@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-hot-toast/-/react-hot-toast-2.4.0.tgz#b91e7a4c1b6e3068fc599d3d83b4fb48668ae51d"
+  integrity sha512-qnnVbXropKuwUpriVVosgo8QrB+IaPJCpL8oBI6Ov84uvHZ5QQcTp2qg6ku2wNfgJl6rlQXJIQU5q+5lmPOutA==
   dependencies:
     goober "^2.1.10"
 
