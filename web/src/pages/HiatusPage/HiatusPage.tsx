@@ -21,8 +21,8 @@ const HiatusPage = () => {
 				<a className="font-medium underline" href="email.txt">
 					e-mail
 				</a>
-				. I won&apos;t be (actively) monitoring Twitter, F Telegram, Signal or other social media accounts while on hiatus.
-				<span>I might be active on the <a rel="me" href="https://ieji.de/@charalampos">Fediverse</a> though</span>
+				. I won&apos;t be (actively) monitoring Twitter, F Telegram, Signal or other social media accounts while on hiatus. {' '}
+				<span className="text-xs">I might be active on the <a rel="me" href="https://ieji.de/@charalampos">Fediverse</a> though</span>
 			</p>
 			<footer className="self-start">
 				See you in 2023!
