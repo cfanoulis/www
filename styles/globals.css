@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Readex Pro;
+    src: local("Readex Pro"),
+      url("../public/fonts/ReadexPro.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Arsenica;
+    font-weight: 300;
+    font-style: normal;
+    src: local("Arsenica"),
+      url("../public/fonts/ArsenicaRegular.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Arsenica;
+    font-weight: 500;
+    font-style: normal;
+    src: local("Arsenica"),
+      url("../public/fonts/ArsenicaDemibold.ttf") format("truetype");
+    font-display: swap;
+  }
+}
+
+@layer components {
+  .vertical-text {
+    writing-mode: vertical-lr;
+  }
+
+  .grid-5cols-200min {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+}
+
+::selection {
+  @apply bg-gray-300 text-neutral-900;
+}
+
+::-webkit-selection {
+  @apply bg-gray-300 text-neutral-900;
+}
+
+::-moz-selection {
+  @apply bg-gray-300 text-neutral-900;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+body {
+  overflow-x: hidden;
+}

@@ -1,21 +1,28 @@
 {
+  "name": "tripledub",
+  "version": "0.1.0",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "api",
-      "web",
-      "packages/*"
-    ]
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"tailwindcss -i styles/globals.css -o styles/dist.css -w\"",
+    "build": "tailwindcss -m -i styles/globals.css -o styles/dist.css && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.3"
   },
   "devDependencies": {
-    "@redwoodjs/core": "^3.4.0",
-    "@sapphire/prettier-config": "^1.4.4"
-  },
-  "eslintConfig": {
-    "extends": "@redwoodjs/eslint-config",
-    "root": true
-  },
-  "scripts": {
-    "fmt": "yarn prettier --write ./**/*.{tsx,ts,config.js,json,md,yml,html}"
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.5.0",
+    "tailwindcss": "^3.2.4",
+    "vercel": "^28.5.5"
   }
 }
