@@ -8,8 +8,8 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "^2.2.0",
-    "@sapphire/prettier-config": "^1.4.3"
+    "@redwoodjs/core": "^3.4.0",
+    "@sapphire/prettier-config": "^1.4.4"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
