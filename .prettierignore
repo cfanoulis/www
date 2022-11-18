@@ -1,6 +1,4 @@
-.redwood
-web/dist
-web/public
+.next
 node_modules
 .editorconfig
 yarn.lock
@@ -11,3 +9,4 @@ LICENSE
 .gitignore
 .nvmrc
 .prettierignore
+styles/dist.css
