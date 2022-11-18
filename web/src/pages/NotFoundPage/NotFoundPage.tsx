@@ -5,7 +5,7 @@ export default () => (
 	<>
 		<MetaTags
 			title="Charalampos Fanoulis"
-			description="student, dreamer, maker"
+			description="student, dreamer, maker. currently in hiatus"
 			/* you should un-comment description and add a unique description, 155 characters or less
 	You can look at this documentation for best practices : https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets */
 		/>
@@ -17,7 +17,7 @@ export default () => (
 			</h1>
 			<p className="pt-4 lg:pt-14">
 				You&apos;ve landed on a page that doesn&apos;t exist. Let&apos;s take you back to the{' '}
-				<Link to={routes.landing()} className="underline">
+				<Link to={routes.hiatus()} className="underline">
 					home page ↗
 				</Link>
 			</p>
