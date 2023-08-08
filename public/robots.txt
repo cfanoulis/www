@@ -4,3 +4,6 @@ Disallow: /twt
 Disallow: /gh
 Disallow: /donate-paypal
 Disallow: /email.txt
+
+User-Agent: GPTBot
+Disallow: /
