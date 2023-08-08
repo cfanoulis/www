@@ -20,7 +20,7 @@ export default function Home() {
 					<b>Thessaloniki, GR</b>, studying <b>Electrical & Computer engineering</b> at the{' '}
 					<a href="https://www.uowm.gr">University of West Macedonia</a>. The 2022-2023 school year was a ride and a half - and I owe this
 					incredible outcome to some close people of mine: <b>Giannis</b>, <b>Martha</b> (my parents), <b>George</b> (my brother),{' '}
-					<b>Kostas</b>, <b>Arber</b>, <b>Anna</b>, <b>Ilias</b> (my friends), <b>Maria</b>, <b>Vasilis</b>, <b>Dimitris</b> &{' '}
+					<b>Kostas</b>, <b>Arber</b>, <b>Anna</b>, <b>Ilias</b>, <b>Theodora</b>, <b>Katerina</b>, <b>Nicole</b>, <b>Aris</b>, <b>Nikos</b>, <b>Despoina</b>, <b>Zina</b>, <b>Ntina</b> (my friends), <b>Maria</b>, <b>Vasilis</b>, <b>Dimitris</b> &{' '}
 					<b>Marinos</b> (my teachers)
 				</p>
 				<footer className="self-start">
