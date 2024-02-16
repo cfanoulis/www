@@ -14,17 +14,14 @@ export default function Home() {
 				<meta name="twitter:card" content="summary" />
 			</Head>
 			<main className="absolute flex items-center justify-center h-screen w-screen flex-col lg:overflow-y-hidden lg:overflow-x-hidden bg-neutral-900 p-4 text-gray-300 lg:p-64">
-				<h1 className="text-4xl font-heading tracking-wider self-start mb-6">Holy sh*t - we made it!</h1>
+				<h1 className="text-4xl font-heading tracking-wider self-start mb-6">Caution - still in progress.</h1>
 				<p className="mb-4">
-					<span className="font-semibold text-lg text-justify">Well, hello!</span> I&apos;m Charalampos - an 18 y/o university student from{' '}
+					<span className="font-semibold text-lg text-justify">Hey!</span> I&apos;m Charalampos - an 18 y/o university student from{' '}
 					<b>Thessaloniki, GR</b>, studying <b>Electrical & Computer engineering</b> at the{' '}
-					<a href="https://www.uowm.gr">University of West Macedonia</a>. The 2022-2023 school year was a ride and a half - and I owe this
-					incredible outcome to some close people of mine: <b>Giannis</b>, <b>Martha</b> (my parents), <b>George</b> (my brother),{' '}
-					<b>Kostas</b>, <b>Arber</b>, <b>Anna</b>, <b>Ilias</b>, <b>Theodora</b>, <b>Katerina</b>, <b>Nicole</b>, <b>Aris</b>, <b>Nikos</b>, <b>Despoina</b>, <b>Zina</b>, <b>Ntina</b> (my friends), <b>Maria</b>, <b>Vasilis</b>, <b>Dimitris</b> &{' '}
-					<b>Marinos</b> (my teachers)
+					<a href="https://www.uowm.gr">University of West Macedonia</a>. 
 				</p>
 				<footer className="self-start">
-					Hold tight as I update this website - for the time being, this shall stand as a tribute to their efforts
+					This website has been under development for a while. We'll be back soon!
 					<br />
 					Yours,
 					<br />
