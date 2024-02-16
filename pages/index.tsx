@@ -21,7 +21,7 @@ export default function Home() {
 					<a href="https://www.uowm.gr">University of West Macedonia</a>. 
 				</p>
 				<footer className="self-start">
-					This website has been under development for a while. We'll be back soon!
+					This website has been under development for a while. We&apos;ll be back soon!
 					<br />
 					Yours,
 					<br />
